@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>threejs</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+
+<body>
+  <script type="module" src="./src/setup.js" defer></script>
+  <script type="module" src="./src/shapes.js" defer></script>
+  <script type="module" src="./src/rocket.js" defer></script>
+  <nav>
+    <button id="shapes" onclick="renderShapesGallery()">Shapes Gallery</button>
+    <button id="rocket" onclick="renderRocket()">Rocket</button>
+    <button id="space-note" disabled style="display: none;">Press Space to move</button>
+  </nav>
+</body>
+
+</html>

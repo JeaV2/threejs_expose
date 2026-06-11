@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'monocraft';
+  src: url('./media/font/monocraft.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  font-family: 'monocraft', 
+}
+
+nav {
+  max-width: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  margin: 0;
+  padding: 1em;
+  color: #fff;
+}
+
+Button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, scale 0.3s;
+}
+
+Button:hover {
+  background-color: #fff;
+  color: #000;
+  scale: 1.05;
+}
